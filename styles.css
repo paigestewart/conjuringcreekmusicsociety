@@ -14,7 +14,7 @@ header {
 }
 
 .logo {
-  height: 500px;
+  height: auto;
   width: auto;
 }
 
@@ -100,3 +100,33 @@ footer {
     padding: 10px;
   }
 }
+
+/* ----- SUBSCRIBE TO OUR EMAIL LIST ----- */
+.subscribe-form {
+  display: flex;
+  gap: 0.5rem;
+  max-width: 400px;
+}
+
+.subscribe-form input {
+  flex: 1;
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.subscribe-form button {
+  padding: 0.6rem 1rem;
+  border: none;
+  background: #222;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.subscribe-success {
+  margin-top: 0.75rem;
+  color: #2a7a2a;
+  font-size: 0.95rem;
+}
+
